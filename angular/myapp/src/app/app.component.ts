@@ -10,6 +10,6 @@ export class AppComponent {
 
 
   handleEvent(){
-    console.log('button has been clicked')
+    console.log('button has been clicked', this.title)
   }
 }
