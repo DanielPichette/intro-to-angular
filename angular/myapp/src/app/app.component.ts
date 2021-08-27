@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp';
+  jsonValue = {
+    a: 'hello',
+    b: 'world'
+  }
 
 
   handleEvent(){

@@ -6,7 +6,8 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<h1>{{title}}</h1>
+<h1>{{title | uppercase}}</h1>
+<h1>{{jsonValue}}</h1>
 <button (click)="handleEvent()">Click Me</button>
 <input placeholder="hello" [(ngModel)]="title" (keydown)="handleEvent()"/>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
