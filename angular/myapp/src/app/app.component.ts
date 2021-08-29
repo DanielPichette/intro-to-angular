@@ -12,6 +12,8 @@ export class AppComponent {
     b: 'world'
   }
 
+  newDate = new Date();
+
 
   handleEvent(){
     console.log('button has been clicked', this.title)

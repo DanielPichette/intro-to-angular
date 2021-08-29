@@ -7,9 +7,12 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <h1>{{title | uppercase}}</h1>
-<h1>{{jsonValue}}</h1>
+<h1>{{jsonValue | json}}</h1>
 <button (click)="handleEvent()">Click Me</button>
+<h1>{{newDate | date: 'short'}}</h1>
+
 <input placeholder="hello" [(ngModel)]="title" (keydown)="handleEvent()"/>
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
